@@ -2,7 +2,7 @@ function preventDefault() {
     event.preventDefault();
 }
 
-function setActiveContent(el) {
+function setActiveContent(el) 
     var contentBodies = document.getElementsByClassName('content-body');
 
     // remove .show-active from all elements
